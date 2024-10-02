@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../projeto 03 fomrulario/style.css">
+    <script src="../projeto 03 fomrulario/script.js" defer></script>
+</head>
+<body>
+    <form>
+    <h1>Helcome</h1>
+    <label>
+        <span>Nome:</span>
+        <input type="text" name="name">
+    </label>
+    <div class="contatos">
+        <label>
+            <span>Email:</span>
+            <input type="text" name="email">
+        </label>
+    
+        <label>
+            <span>Telefone:</span>
+            <input type="number" name="telefone">
+        </label>
+    </div>
+    <label>
+        <span>Endereço:</span>
+        <input type="text" name="endereco">
+    </label>
+    <label>
+        <span>Gênero:</span>
+        <select name="genero" id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+        <!--<input type="text" name="genero">-->
+    </label>
+    <label>
+        <span>Data de nascimento:</span>
+        <input type="date" name="nascimento">
+    </label>
+    <label>
+        <span>Preferências:</span>
+        <input type="text" name="preference">
+    </label>
+    <button type="submit">
+        Enviar
+    </button>
+    </form>
+</body>
+</html>
